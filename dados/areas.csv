@@ -1,0 +1,60 @@
+id,area,id_departamento
+1,ciências básicas veterinária,1
+2,ciência do desenvolvimento agrário,1
+3,clínica e cirurgia em medicina veterinária,1
+4,engenharia agrícola,1
+5,ensino da geografia,1
+6,ética e medicina veterinária preventiva,1
+7,fitotecnia,1
+8,análise e planejamento ambiental,1
+9,recursos naturais renováveis,1
+10,zootecnia,1
+11,administraçâo,2
+12,ciências contábeis,2
+13,biofísica,3
+14,biomédicas,3
+15,bioquímica,3
+16,botânica,3
+17,ecologia,3
+18,ensino de biologia,3
+19,genética,3
+20,imunologia,3
+21,microbiologia,3
+22,morfologia,3
+23,oceanografia,3
+24,zoologia,3
+25,economia,4
+26,computação,5
+27,eng. civil,5
+28,eng. elétrica,5
+29,eng. mecânica,5
+30,eng. produção,5
+31,eng. química,5
+32,estatística,5
+33,física,5
+34,matemática,5
+35,química,5
+36,didática,6
+37,estágio e prática pedagógica,6
+38,política e legislação da educação,6
+39,fundamentos do cuidar em enfermagem,7
+40,saúde coletiva,7
+41,atenção à saúde nos ciclos do desenvolvimento humano,7
+42,gestão e pesquisa em enfermagem,7
+43,educação física,7
+44,medicina i,7
+45,medicina ii,7
+46,medicina iii,7
+47,medicina iv,7
+48,bases biológicas,7
+49,propedêuticas jurídicas,8
+50,acesso à justiça e processo,8
+51,relações privadas e direito,8
+52,relações jurídicas de estado e sociedade,8
+53,filosofia,9
+54,psicologia,9
+55,históriaciências sociais,9
+56,metodologia do conhecimento científico,9
+57,letras,10
+58,línguas estrangeiras,10
+59,comunicação social,10

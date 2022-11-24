@@ -1,0 +1,586 @@
+id,cod,disciplina,ch,id_departamento,id_area
+1,CET154,química geral e orgânica,90.0,5,35
+2,CET558,calculo aplicado a biomedicina,60.0,5,34
+3,CET559,física aplicada a biomedicina,60.0,5,33
+4,CIB520,bioestatistica,60.0,5,32
+5,CIB517,bioinformática,60.0,5,26
+6,CET791,química geral,45.0,5,35
+7,CET792,física,75.0,5,33
+8,CET793,matemática,30.0,5,34
+9,CET794,química orgânica,45.0,5,35
+10,CET006,análise química,60.0,5,35
+11,CET795,desenho técnico,60.0,5,27
+12,CET796,cálculo,75.0,5,34
+13,CET797,elementos de estatística,60.0,5,32
+14,CET076,metodologia e estatística experimental,75.0,5,32
+15,CET423,fundamentos matemáticos,60.0,5,34
+16,CET552,introdução a ciência dos computadores,60.0,5,26
+17,CET398,matemática aplicada e financeira,60.0,5,34
+18,CET392,estatistica i,60.0,5,32
+19,CET399,estatistica ii,60.0,5,32
+20,CET1295,estatística apllicada i,60.0,5,32
+21,CET1296,estatística apllicada ii,60.0,5,32
+22,CET1293,matemática aplicada i,60.0,5,34
+23,CET1294,matemática aplicada ii,60.0,5,34
+24,CET631,fundamentos de estatistica  - (curriculo atual),45.0,5,32
+25,CET701,quimica aplicada a analise ambiental - (curriculo atual),60.0,5,35
+26,CET702,fundamentos de estatistica - (curriculo novo  a partir de 2022),60.0,5,32
+27,CET699,estatística aplicada às ciências sociais i,60.0,5,32
+28,CET700,estatística aplicada às ciências sociais ii,60.0,5,32
+29,CET1200,intrudução à estatistica,60.0,5,32
+30,CET561,cálculo,60.0,5,34
+31,CET647,física para biologia,60.0,5,33
+32,CET650,química aplicada à biologia,90.0,5,35
+33,CET020,bioestatística,60.0,5,32
+34,CET042,ciência dos materiais,60.0,5,29
+35,CET045,termodinâmica,60.0,5,29
+36,CET050,materiais metálicos,45.0,5,29
+37,CET051,materiais cerâmicos,45.0,5,29
+38,CET057,engenharia de saneamento ambiental,45.0,5,31
+39,CET1010,"petróleo, gás e biocombustíveis",45.0,5,31
+40,CET1018,estágio obrigatório,180.0,5,29
+41,CET1043,complementação de poços de petróleo,45.0,5,31
+42,CET1044,motores de combustão,45.0,5,29
+43,CET1045,materiais conjugados,45.0,5,29
+44,CET1046,mecânica de precisão,45.0,5,29
+45,CET1047,princípios de tribologia,45.0,5,29
+46,CET1048,elementos de robótica,45.0,5,29
+47,CET1049,geologia do petróleo,45.0,5,31
+48,CET1050,perfilagem de poços de petróleo,45.0,5,31
+49,CET1051,perfuração de poços de petróleo,45.0,5,31
+50,CET1052,análise e caracterização de materiais,45.0,5,31
+51,CET1053,corrosão metálica,45.0,5,31
+52,CET1055,gestão da qualidade,45.0,5,30
+53,CET1057,gestão do conhecimento,45.0,5,30
+54,CET160,cálculo diferencial e integral i,90.0,5,34
+55,CET162,cálculo diferencial e integral ii,90.0,5,34
+56,CET164,física i,75.0,5,33
+57,CET167,cálculo diferencial e integral iii,90.0,5,34
+58,CET171,física ii,75.0,5,33
+59,CET173,física ii,60.0,5,34
+60,CET174,equações diferencias aplicadas i,75.0,5,33
+61,CET176,física iii,75.0,5,33
+62,CET178,equações diferenciais aplicadas ii,75.0,5,33
+63,CET181,física iv,75.0,5,33
+64,CET569,geometria analítica,75.0,5,34
+65,CET581,cálculo numérico,75.0,5,34
+66,CET788,física experimental i,30.0,5,33
+67,CET789,química geral i,90.0,5,35
+68,CET809,desenho mecânico i,75.0,5,29
+69,CET810,introdução à engenharia,30.0,5,29
+70,CET831,álgebra linear i,90.0,5,34
+71,CET832,gestão ambiental,30.0,5,31
+72,CET833,física experimental ii,30.0,5,33
+73,CET835,química geral ii,60.0,5,35
+74,CET836,programação i,60.0,5,26
+75,CET838,física experimental iii,30.0,5,33
+76,CET839,mecânica vetorial estática,60.0,5,29
+77,CET840,programação ii,60.0,5,26
+78,CET842,eletrotécnica geral,75.0,5,28
+79,CET843,pesquisa operacional i,45.0,5,30
+80,CET844,eletrônica aplicada e dispositivos de automação,75.0,5,28
+81,CET851,gestão da qualidade,45.0,5,30
+82,CET855,automação e controle,60.0,5,28
+83,CET861,tecnologia limpa na indústria,45.0,5,31
+84,CET868,refino de petróleo,45.0,5,31
+85,CET870,energias alternativas,45.0,5,31
+86,CET876,gestão energética industrial,45.0,5,30
+87,CET943,desenho mecânico ii,60.0,5,29
+88,CET944,física experimental iv,30.0,5,33
+89,CET945,metodologia e projetos de experimentos,30.0,5,29
+90,CET946,resistência dos materiais i,60.0,5,29
+91,CET947,comportamento mecânico dos materiais,60.0,5,29
+92,CET948,elementos de máquinas,60.0,5,29
+93,CET950,mecânica dos fluidos,90.0,5,29
+94,CET951,mecânica dos sólidos i,60.0,5,29
+95,CET952,metrologia e controle da qualidade,45.0,5,29
+96,CET953,dinâmica das máquinas,60.0,5,29
+97,CET954,materiais de construção mecânica,30.0,5,29
+98,CET955,mecânica dos sólidos ii,60.0,5,29
+99,CET956,processos de conformação mecânica,75.0,5,29
+100,CET957,processos de usinagem i,60.0,5,29
+101,CET958,projeto assistido por computador,60.0,5,29
+102,CET960,transferência de calor e massa,60.0,5,29
+103,CET961,engenharia assistida por computador,45.0,5,29
+104,CET962,"fundição,soldagem e tratamentos térmicos",60.0,5,29
+105,CET963,manufatura assistida por computador,45.0,5,29
+106,CET964,máquinas térmicas e processos contínuos,75.0,5,29
+107,CET965,processos de usinagem ii,60.0,5,29
+108,CET966,projeto mecânico,90.0,5,29
+109,CET967,máquinas hidráulicas e pneumáticas,90.0,5,29
+110,CET968,mecanismos,60.0,5,29
+111,CET969,planejamento e controle da produção,45.0,5,29
+112,CET970,processos especiais de fabricação,45.0,5,29
+113,CET971,sistemas frigoríficos,60.0,5,29
+114,CET972,sistemas térmicos de potência,60.0,5,29
+115,CET973,sistemas de elevação e transporte,90.0,5,29
+116,CET974,sistemas de produção e gestão,60.0,5,30
+117,CET975,trabalho de conclusão de curso i,45.0,5,29
+118,CET977,trabalho de conclusão de curso ii,45.0,5,29
+119,CET1237,química geral i,60.0,5,35
+120,CET811,introdução à engenharia civil,45.0,5,27
+121,CET1030,desenho técnico aplicado à engenharia civil,60.0,5,27
+122,CET1238,química geral ii,60.0,5,35
+123,CET1239,química geral e experimental,30.0,5,35
+124,CET1031,arquitetura e urbanismo,45.0,5,27
+125,CET1032,resitência de materiais i,60.0,5,27
+126,CET596,mecânica dos fluídos,60.0,5,27
+127,CET1033,análise estrutural i,60.0,5,27
+128,CET1035,mecânica dos solos i,75.0,5,27
+129,CET1036,resistência dos materiais ii,75.0,5,27
+130,CET1240,materiais de construção i,60.0,5,27
+131,CET1241,hidráulica,75.0,5,27
+132,CET1242,instalações prediais: elétricas,60.0,5,27
+133,CET1037,análise estrutural ii,75.0,5,27
+134,CET1039,materiais de construção ii,75.0,5,27
+135,CET1040,mecânica dos solos ii,75.0,5,27
+136,CET1042,tecnologia das construções i,60.0,5,27
+137,CET1243,"sistemas de água, esgoto e drenagem",60.0,5,27
+138,CET1244,instalações prediais: hidro-sanitárias,60.0,5,27
+139,CET1041,projeto integrado i: materiais,30.0,5,27
+140,CET1058,análise estrutural iii,75.0,5,27
+141,CET1066,estruturas de concreto armado i,75.0,5,27
+142,CET1069,sistemas de transporte,60.0,5,27
+143,CET1245,análise financeira e orçamento das construções,60.0,5,27
+144,CET1246,tecnologia das construções ii,60.0,5,27
+145,CET1247,saneamento e tratamento de esgotos,60.0,5,27
+146,CET1084,inovação e propriedade intelectual,45.0,5,30
+147,CET1085,fontes fósseis e renováveis  de energia,45.0,5,31
+148,CET1086,gestão ambiental,45.0,5,31
+149,CET865,computação de alto desempenho,45.0,5,26
+150,CET892,poluição e gestão de resíduos na construção,45.0,5,31
+151,CET1072,estruturas de aço,60.0,5,27
+152,CET1075,estruturas de madeira,45.0,5,27
+153,CET1248,estruturas de concreto armado ii,60.0,5,27
+154,CET1249,estradas e ferrovias,75.0,5,27
+155,CET1250,fundações,75.0,5,27
+156,CET1251,planejamento e gerenciamento de obras,60.0,5,27
+157,CET1252,projeto integrado ii: águas e meio ambiente,30.0,5,27
+158,CET1022,conhecimento e valoração da inovação,45.0,5,30
+159,CET1090,estabilidade das estruturas,45.0,5,27
+160,CET1091,estruturas pré-fabricadas de concreto armado,45.0,5,27
+161,CET1099,higiene e segurança do trabalho,45.0,5,27
+162,CET1102,modelagem computacional aplicada à engenharia,45.0,5,27
+163,CET1103,projeto de engenharia auxiliado por computador,45.0,5,27
+164,CET1260,materiais compósitos e sustentáveis,45.0,5,27
+165,CET1261,introdução à dinâmica das estruturas,45.0,5,27
+166,CET1070,trabalho de conclusão de curso i,45.0,5,27
+167,CET1078,estrutura de concreto armado iii,60.0,5,27
+168,CET1253,obras da terra,45.0,5,27
+169,CET1254,projeto integrado iii: gestão e construção,30.0,5,27
+170,CET1255,estágio obrigatório i,135.0,5,27
+171,CET1074,introdução ao método dos elementos finitos,45.0,5,27
+172,CET1087,tecnologia de construção sustentável e certificação verde,45.0,5,27
+173,CET1089,detalhamento de estruturas de concreto armado,45.0,5,27
+174,CET1094,projeto de portos e hidrovias,45.0,5,27
+175,CET1096,projetos de edifícios de concreto armado,45.0,5,27
+176,CET1098,estruturas esbeltas,45.0,5,27
+177,CET1101,métodos matriciais para análise estrutural,45.0,5,27
+178,CET1262,projeto de difícios de aço,45.0,5,27
+179,CET1263,estruturas protendidas,45.0,5,27
+180,CET1266,plataforma bim,45.0,5,27
+181,CET1083,trabalho de conclusão de curso ii,45.0,5,27
+182,CET1256,pavimentação,45.0,5,27
+183,CET1257,pontes,60.0,5,27
+184,CET1258,projeto integrado iv: estruturas e fundações,30.0,5,27
+185,CET1259,estágio obrigatório ii,135.0,5,27
+186,CET1095,projeto de coberturas,45.0,5,27
+187,CET1100,gestão de obras de grande porte,45.0,5,27
+188,CET1264,instalações prediais: gás e incêndio,45.0,5,27
+189,CET583,resistência dos materiais i,60.0,5,27
+190,CET858,processos de construção de edificações,60.0,5,27
+191,CET812,desenho de engenharia,60.0,5,29
+192,CET830,desenho técnico aplicado a ep,60.0,5,29
+193,CET848,metodologia de projetos e experimentos,30.0,5,29
+194,CET854,processamento de materiais metálicos,90.0,5,29
+195,CET850,processos químicos de fabricação,90.0,5,31
+196,CET846,fenômenos transportes i,60.0,5,31
+197,CET563,introdução à engenharia de produção,30.0,5,30
+198,CET834,organização do trabalho,60.0,5,30
+199,CET606,gestão de sistemas de informação,60.0,5,30
+200,CET847,gestão de projetos,60.0,5,30
+201,CET849,pesquisa operacional ii,60.0,5,30
+202,CET853,ergonomia e segurança do trabalho,45.0,5,30
+203,CET604,logística,60.0,5,30
+204,CET852,modelagem probabilísticas e simulação,60.0,5,30
+205,CET880,planejamento e controle da produção i,90.0,5,30
+206,CET600,manufatura auxiliada por computadores,60.0,5,30
+207,CET856,engenharia da qualidade,60.0,5,30
+208,CET881,estratégia competitiva,60.0,5,30
+209,CET882,sistemas de gestão e normalização,45.0,5,30
+210,CET883,planejamento e controle da produção ii,60.0,5,30
+211,CET869,projeto do produto,60.0,5,30
+212,CET884,engenharia de sustentabilidade,45.0,5,30
+213,CET885,gestão da cadeia de suprimentos,60.0,5,30
+214,CET889,gestão do conhecimento e inovação,60.0,5,30
+215,CET886,planejamento e controle da produção iii,60.0,5,30
+216,CET887,sistemas de produção agroindustriais,60.0,5,30
+217,CET860,projetos industriais,90.0,5,30
+218,CET888,gestão de operações em serviço,60.0,5,30
+219,CET862,trabalho de conclusão de curso i,45.0,5,30
+220,CET863,trabalho de conclusão de curso ii,45.0,5,30
+221,CET864,estágio obrigatório,60.0,5,30
+222,CET857,processamento de materiais cerâmicos,60.0,5,30
+223,CET859,teoria das organizações,30.0,5,30
+224,CET877,gestão de armazenagem,45.0,5,30
+225,CET878,manufatura enxuta,45.0,5,30
+226,CET891,logística reversa,45.0,5,30
+227,CET597,engenharia de sistemas,45.0,5,30
+228,CET808,introdução à engenharia elétrica,45.0,5,28
+229,CET934,trabalho de conclusão de curso i,45.0,5,28
+230,CET1215,trabalho de conclusão de curso ii,30.0,5,28
+231,CET1333,desenho técnico i,60.0,5,27
+232,CET1218,fenômenos de transporte i,60.0,5,31
+233,CET1187,circuitos elétricos i,75.0,5,28
+234,CET1188,laboratório de circuitos elétricos i,30.0,5,28
+235,CET1183,química geral i,60.0,5,35
+236,CET1184,química geral ii,60.0,5,35
+237,CET1185,química experimental,30.0,5,35
+238,CET894,materiais elétricos e magnéticos,60.0,5,28
+239,CET1193,circuitos elétricos ii,105.0,5,28
+240,CET1224,sistemas de controle i,90.0,5,28
+241,CET1229,sistemas de controle ii,75.0,5,28
+242,CET1191,conversão de energia,105.0,5,28
+243,CET1216,eletromagnetismo,105.0,5,28
+244,CET1189,eletrônica analógica i,105.0,5,28
+245,CET1196,eletrônica analógica ii,90.0,5,28
+246,CET1219,eletrônica digital,90.0,5,28
+247,CET1223,sistemas embarcados e periféricos,90.0,5,28
+248,CET1222,instrumentação industrial,90.0,5,28
+249,CET1190,análise de sinais e sistemas,75.0,5,28
+250,CET1217,eletrônica de potência,90.0,5,28
+251,CET1230,acionamentos elétricos,90.0,5,28
+252,CET918,máquinas elétricas,90.0,5,28
+253,CET1225,máquinas síncronas,90.0,5,28
+254,CET1195,laboratório de instalações elétricas prediais,30.0,5,28
+255,CET1194,instalações elétricas prediais,60.0,5,28
+256,CET1227,instalações elétricas industriais,90.0,5,28
+257,CET1228,automação industrial,105.0,5,28
+258,CET1298,transmissão de energia elétrica,105.0,5,28
+259,CET1226,análise de sistemas elétricos de potência,105.0,5,28
+260,CET1232,qualidade de energia elétrica,90.0,5,28
+261,CET1231,proteção de sistemas elétricos de potência,90.0,5,28
+262,CET1330,sistemas de geração de energia elétrica,90.0,5,28
+263,CET1299,distribuição de energia elétrica,90.0,5,28
+264,CET1186,projeto interdisciplinar,30.0,5,28
+265,CET1198,fontes chaveadas,45.0,5,28
+266,CET1199,conversores cc – ca,45.0,5,28
+267,CET1202,fontes alternativas de energia elétrica,45.0,5,28
+268,CET1203,projeto e instalação de sistemas fotovoltaicos,45.0,5,28
+269,CET1334,tópicos especiais i,45.0,5,28
+270,CET1335,tópicos especiais ii,45.0,5,28
+271,CET1336,tópicos especiais iii,45.0,5,28
+272,CET1337,tópicos especiais iv,45.0,5,28
+273,CET1338,tópicos especiais v,45.0,5,28
+274,CET1339,tópicos especiais vi,45.0,5,28
+275,CET1340,tópicos especiais vii,45.0,5,28
+276,CET1341,tópicos especiais viii,45.0,5,28
+277,CET1342,tópicos especiais ix,45.0,5,28
+278,CET1343,tópicos especiais x,45.0,5,28
+279,CET1210,eficiência energética,45.0,5,28
+280,CET1211,aterramentos elétricos,45.0,5,28
+281,CET1212,segurança em eletricidade – nr10,45.0,5,28
+282,CET1332,energia sociedade e meio-ambiente,45.0,5,28
+283,CET1204,processamento digital de sinais,45.0,5,28
+284,CET1205,sistemas em tempo real,45.0,5,28
+285,CET1206,projeto de sistemas de automoção,45.0,5,28
+286,CET1207 ,redes industriais,45.0,5,28
+287,CET1208,sistemas supervisórios,45.0,5,28
+288,CET1209,robótica,45.0,5,28
+289,CET1213,iintrodução á modelagem e identificação de sistemas,45.0,5,28
+290,CET1214,introdução aos sistemas dinâmicos não lineares,45.0,5,28
+291,CET935 ,estágio supervisionado,180.0,5,28
+292,CET786,desenho técnico i,60.0,5,27
+293,CET787,introdução à engenharia química,30.0,5,31
+294,CET941,físico quimica i,60.0,5,35
+295,CET982,química inorgânica,90.0,5,35
+296,CET984,físico quimica ii,60.0,5,35
+297,CET986,química orgânica i,60.0,5,35
+298,CET985,quimica analítica qualitativa,60.0,5,35
+299,CET987,quimica analitica quantitativa,60.0,5,35
+300,CET988,quimica orgânica ii,60.0,5,35
+301,CET989,termodinâmica quimica i,60.0,5,31
+302,CET991,seleção e caracterização de materiais,60.0,5,31
+303,CET990,instrumentação e controle de qualidade,60.0,5,31
+304,CET995,termodinâmica química ii,60.0,5,31
+305,CET994,fenômenos de transporte ii,60.0,5,31
+306,CET996,engenharia bioquímica,60.0,5,31
+307,CET992,eletroquímica,60.0,5,31
+308,CET997,águas industriais e de consumo,60.0,5,31
+309,CET588,processos químicos de fabricação,60.0,5,31
+310,CET993,análise instrumental,60.0,5,28
+311,CET998,operações unitárias i,60.0,5,31
+312,CET999,introdução a controle de processos,60.0,5,31
+313,CET1001,engenharia de bioprocessos,60.0,5,31
+314,CET1002,tratamento de efluentes i,60.0,5,31
+315,CET1003,cinética química,60.0,5,31
+316,CET1000,fenômenos de transporte iii,60.0,5,31
+317,CET1004,aplicações industriais de calor,60.0,5,31
+318,CET1005,operações unitárias ii,60.0,5,31
+319,CET1006,controle de processos aplicado,60.0,5,31
+320,CET1007,tratamento de efluentes ii,60.0,5,31
+321,CET1008,calculo de reatores,60.0,5,31
+322,CET1009,sistemas de gestão da produção na ind. química,60.0,5,31
+323,CET1011,engenharia auxiliada por computador (cae),60.0,5,31
+324,CET1012,"modelagem, simulação e otimização de processos químico",60.0,5,31
+325,CET1013,planejamento e projeto integrado na ind. química,60.0,5,31
+326,CET1014,petroquímica e química de fontes renováveis de energia,60.0,5,31
+327,CET1015,"ergonomia, higiene e engenharia de segurança",60.0,5,30
+328,CET1016,trabalho de conclusão de curso i,45.0,5,31
+329,CET1017,trabalho de conclusão de curso ii,45.0,5,31
+330,CET056,materiais poliméricos,45.0,5,31
+331,CET1019,modelagem matemática e simulação de processos químicos,45.0,5,31
+332,CET1020,controle de qualidade com otimização online de processos,45.0,5,31
+333,CET1021,projeto integrado adaptativo,45.0,5,31
+334,CET1141,análise multicritério de processos e sistemas,45.0,5,31
+335,CET871,processamento de alimentos e fermentações industriais,45.0,5,31
+336,CET872,tecnologia de alimentos i,45.0,5,31
+337,CET873,tecnologia de alimentos ii,45.0,5,31
+338,CET1142,gestão do conhecimento e inovação,45.0,5,30
+339,CET 158,geometria analítica,60.0,5,34
+340,CET 160,cálculo diferencial e integral i,90.0,5,34
+341,CET163,álgebra linear i,60.0,5,34
+342,CET164 ,física i,75.0,5,33
+343,CET165,laboratório de física i,60.0,5,33
+344,CET166,laboratório de computação i,75.0,5,26
+345,CET169,laboratório de computação ii,75.0,5,26
+346,CET170,evolução das idéias da física,60.0,5,33
+347,CET172,laboratório de física ii,60.0,5,33
+348,CET175,mecânica clássica,90.0,5,33
+349,CET177,laboratório de física iii,60.0,5,33
+350,CET179,termodinâmica,75.0,5,33
+351,CET180,eletromagnetismo,75.0,5,33
+352,CET182,laboratório de física iv,60.0,5,33
+353,CET183,tópicos de física matemática,75.0,5,34
+354,CET184,eletromagnetismo ii,75.0,5,33
+355,CET185,mecânica analítica,90.0,5,33
+356,CET186,física moderna,75.0,5,33
+357,CET187,laboratório de física moderna,75.0,5,33
+358,CET188,estrutura da matéria,60.0,5,33
+359,CET189,mecânica estatística,75.0,5,33
+360,CET194 ,mecânica quântica i,90.0,5,33
+361,CET195,trabalho de conclusão de curso i,90.0,5,33
+362,CET196,física e sociedade,60.0,5,33
+363,CET197,física computacional,90.0,5,33
+364,CET198,trabalho de conclusão de curso ii,60.0,5,33
+365,CET567,química geral,75.0,5,35
+366,CET643,introdução à física,60.0,5,33
+367,CET150,tratamento de água,60.0,5,23
+368,CET262,introdução à astronomia e astrofísica,60.0,5,33
+369,CET710,cálculo de formas e aplicações à física,60.0,5,33
+370,CET199,instrumentação para o ensino de física,60.0,5,33
+371,CET257,tópicos de mecânica clássica,60.0,5,33
+372,CET258,introdução à física dos plasmas,60.0,5,33
+373,CET260,óptica física,60.0,5,33
+374,CET263,introdução à teoria dos campos,60.0,5,33
+375,CET265,introdução à física médica,60.0,5,33
+376,CET269,processos investigativos e emancipativos no ensino,60.0,5,33
+377,CET270,física dos oceanos i,60.0,5,23
+378,CET271,física dos oceanos ii,60.0,5,23
+379,CET272,"oceanografia física, costeira e estuarina",60.0,5,23
+380,CET273,dinâmica de sistemas marinhos,60.0,5,23
+381,CET274,mecânica dos meios contínuos,60.0,5,33
+382,CET703,física matemática i,60.0,5,33
+383,CET705,gravitação e cosmologia,60.0,5,33
+384,CET707,mecânica clássica avançada,60.0,5,33
+385,CET713,introdução à física molecular,60.0,5,33
+386,CET259,espectroscopia atômica,60.0,5,33
+387,CET261,mecânica quantica ii,60.0,5,33
+388,CET264,teoria quântica de campos,60.0,5,33
+389,CET266,produção de material didático,60.0,5,33
+390,CET268,investigação no ensino de ciências,60.0,5,33
+391,CET275,computação quântica,60.0,5,33
+392,CET393,astrofísica estelar,60.0,5,33
+393,CET394,astrofísica galáctica e extragaláctica,60.0,5,33
+394,CET704,física nuclear,60.0,5,33
+395,CET706,introdução à física das partículas e campos,60.0,5,33
+396,CET708,mecânica estatística i,60.0,5,33
+397,CET709,mecânica quântica iii,60.0,5,33
+398,CET712,teoria de grupos aplicada à física,60.0,5,33
+399,CET158,geometria analítica,60.0,5,34
+400,CET267,pesquisa em ensino de física i,60.0,5,33
+401,CET276,metodologia para ensino de física,60.0,5,33
+402,CET277,elementos de mecânica clássica,90.0,5,33
+403,CET278,estágio supervisionado em física i,90.0,5,33
+404,CET279,estágio supervisionado em física ii,90.0,5,33
+405,CET280,introdução ao eletromagnetismo,75.0,5,33
+406,CET281,estágio supervisionado em física iii,90.0,5,33
+407,CET282 ,novas tecnologias para o ensino de física,60.0,5,33
+408,CET283,estágio supervisionado em física iv,135.0,5,33
+409,CET284 ,pesquisa em ensino de física ii,60.0,5,33
+410,CET194,mecânica quântica i,90.0,5,33
+411,CET1104,introdução ao cálculo,90.0,5,34
+412,CET1105,fundamentos de matemática i,90.0,5,34
+413,CET1106,matemática experimental,90.0,5,34
+414,CET1107,comunicação em matemática i,90.0,5,34
+415,CET1108,fundamentos de matemática ii,90.0,5,34
+416,CET1109,física experimental,60.0,5,33
+417,CET1110,análse combinatória,75.0,5,34
+418,CET1111,geometria analítica,90.0,5,34
+419,CET1112,estruturas algébricas,60.0,5,34
+420,CET1113,teoria dos números,75.0,5,34
+421,CET635,linguagem de programação i,90.0,5,26
+422,CET1114,análise i,90.0,5,34
+423,CET1115,álgebra i,75.0,5,34
+424,CET1116,álgebra linear i,75.0,5,34
+425,CET1117,análise ii,90.0,5,34
+426,CET1118,álgebra ii,75.0,5,34
+427,CET1119,álgebra linear ii,75.0,5,34
+428,CET641,linguagem de programação ii,90.0,5,26
+429,CET1120,análise iii,90.0,5,34
+430,CET1121,cálculo numérico i,90.0,5,34
+431,CET1122,teoria das probabilidades,60.0,5,32
+432,CET1123,equações diferencias ordinárias,90.0,5,34
+433,CET1124,análise complexa i,90.0,5,34
+434,CET1125,geometria diferencial i,90.0,5,34
+435,CET1126,inferência estatística,60.0,5,32
+436,CET1127,topologia geral i,90.0,5,34
+437,CET1128,trabalho de conclusão de curso i,60.0,5,34
+438,CET1129,comunicação em matemática ii,75.0,5,34
+439,CET1130,equações diferenciais parciais i,90.0,5,34
+440,CET1131,curvas algébricas,90.0,5,34
+441,CET1132,trabalho de conclusão de curso ii,60.0,5,34
+442,CET041,programação de computadores,75.0,5,26
+443,CET159,introdução ao cálculo,75.0,5,34
+444,CET285,geometria euclidiana plana,60.0,5,34
+445,CET286,introdução à teoria dos números,60.0,5,34
+446,CET287,lógica,45.0,5,34
+447,CET157,álgebra i,60.0,5,34
+448,CET161,informática aplicada ao cálculo,60.0,5,34
+449,CET288,álgebra ii,60.0,5,34
+450,CET289,filosofia da matemática,60.0,5,34
+451,CET290,álgebra linear ii,60.0,5,34
+452,CET291,geometria descritiva,60.0,5,34
+453,CET292,história da matemática,60.0,5,34
+454,CET293,análise matemática i,90.0,5,34
+455,CET294,estatística aplicada à educação,60.0,5,32
+456,CET295,contextos educacionais em educação matemática,60.0,5,34
+457,CET296,didática da matemática,60.0,5,34
+458,CET297,funções de uma variável complexa,60.0,5,34
+459,CET298,cálculo numérico,60.0,5,34
+460,CET334,desenho geométrico,60.0,5,34
+461,CET333,metodologia do ensino da matemática,60.0,5,34
+462,CET299,estágio supervisionado em matemática i,90.0,5,34
+463,CET335,estágio supervisionado em matemática ii,90.0,5,34
+464,CET336,pesquisa em ensino de matemática i,60.0,5,34
+465,CET338,estágio supervisionado em matemática iii,90.0,5,34
+466,CET337,pesquisa em ensino de matemática ii,60.0,5,34
+467,CET339,estágio supervisionado em matemática iv,135.0,5,34
+468,CET659,cálculo i,90.0,5,34
+469,CET660,cálculo ii,90.0,5,34
+470,CET664,cálculo iii,60.0,5,34
+471,CET665,estatistica,60.0,5,32
+472,CET661,física i,75.0,5,33
+473,CET666,física ii,75.0,5,33
+474,CET669,fisica iii,60.0,5,33
+475,CET034,instrumentação e  segurança  de laboratório,60.0,5,35
+476,CET698,química geral i,75.0,5,35
+477,CET023,quimica geral ii,90.0,5,35
+478,CET663,quimica orgânica i,60.0,5,35
+479,CET668,quimica orgânica ii,90.0,5,35
+480,CET672,quimica orgânica iii,90.0,5,35
+481,CET676,técnicas de análise orgânica,60.0,5,35
+482,CET662,química inorgânica fundamental,90.0,5,35
+483,CET667,química inorgânica descritiva,120.0,5,35
+484,CET671,química de coordenação,90.0,5,35
+485,CET059,físico-quimica i,105.0,5,35
+486,CET674,físico-química ii,120.0,5,35
+487,CET142,química quântica,60.0,5,35
+488,CET670,química analítica qualitativa,90.0,5,35
+489,CET675,quimica analitica quantitativa,120.0,5,35
+490,CET680,química instrumental,75.0,5,35
+491,CET677,métodos de separação,60.0,5,35
+492,CET673,bioquímica industrial,75.0,5,35
+493,CET679,química industrial,75.0,5,35
+494,CET682,química de alimentos,75.0,5,35
+495,CET134,química ambiental,60.0,5,35
+496,CET143,química verde,60.0,5,35
+497,CET678,metodologia de pesquisa em química,60.0,5,35
+498,CET681,projeto de pesquisa em química,60.0,5,35
+499,CET683,tcc,60.0,5,35
+500,CET130,história da química,60.0,5,35
+501,CET022,cálculo diferencial e integral i,60.0,5,34
+502,CET036,cálculo diferencial e integral ii,60.0,5,34
+503,CET032,geometria analítica,60.0,5,34
+504,CET025,estatística aplicada a química,45.0,5,34
+505,CET054,física i para a química,75.0,5,33
+506,CET027,física ii para a química,60.0,5,33
+507,CET033,química geral i,90.0,5,35
+508,CET037,quimica orgânica i,105.0,5,35
+509,CET024,química inorgânica fundamental,105.0,5,35
+510,CET038,química inorgânica descritiva,105.0,5,35
+511,CET715,físico-química ii,90.0,5,35
+512,CET060,quimica analitica quantitativa,105.0,5,35
+513,CET126,estágio supervisionado i,90.0,5,35
+514,CET129,estágio supervisionado ii,90.0,5,35
+515,CET135,estágio supervisionado  iii,135.0,5,35
+516,CET138,estágio supervisionado  iv,90.0,5,35
+517,CET035,informática aplicada a formação,45.0,5,35
+518,CET021,o professor e o ensino de química,30.0,5,35
+519,CET127,metodologia e instrumentação para o ensino de química,60.0,5,35
+520,CET714,metodologia de pesquisa no ensino de quimica,60.0,5,35
+521,CET136,pesquisa no ensino de química,60.0,5,35
+522,CET 137,pesquisa no ensino de química ii,60.0,5,35
+523,CET103,administração e segurança de redes,60.0,5,26
+524,CET074,álgebra abstrata,60.0,5,34
+525,CET638,álgebra e geometria analítica,90.0,5,34
+526,CET079,análise dos sistemas de informação,60.0,5,26
+527,CET086,análise numérica,60.0,5,34
+528,CET064,aquisição de conhecimento,75.0,5,26
+529,CET090,banco de dados i,60.0,5,26
+530,CET091,banco de dados ii,60.0,5,26
+531,CET104,banco de dados orientado a objetos,60.0,5,26
+532,CET632,cálculo aplicado i,75.0,5,34
+533,CET639,cálculo aplicado ii,75.0,5,34
+534,CET075,cálculo aplicado iii,60.0,5,34
+535,CET058,compiladores,60.0,5,26
+536,CET114,computação bioinspirada,60.0,5,26
+537,CET080,computação gráfica,60.0,5,26
+538,CET105,computação quântica,60.0,5,26
+539,CET087,conceitos de linguagens de programação,60.0,5,26
+540,CET062,controle de sistemas – tecnologias e dispositivos,60.0,5,26
+541,CET106,dinâmica de sistemas,60.0,5,26
+542,CET637,eletrônica,60.0,5,26
+543,CET092,empreendedor de informática,60.0,5,26
+544,CET095,engenharia de software,60.0,5,26
+545,CET097,estágio supervisionado,450.0,5,26
+546,CET077,estrutura de dados,60.0,5,26
+547,CET633,física para ciência da computação,60.0,5,33
+548,CET640,fundamentos matemáticos para computação,60.0,5,26
+549,CET068,inteligência artificial,60.0,5,26
+550,CET096,interface homem máquina,60.0,5,26
+551,CET124,introdução à bioinformática,60.0,5,26
+552,CET634,introdução à ciência da computação,60.0,5,26
+553,CET123,introdução à pesquisa operacional,60.0,5,26
+554,CET110,laboratório e organização de computadores,60.0,5,26
+555,CET078,linguagem de programação iii,60.0,5,26
+556,CET642,lógica digital i,60.0,5,26
+557,CET065,lógica digital ii,60.0,5,26
+558,CET636,lógica para computação,60.0,5,26
+559,CET081,organização e arquitetura dos computadores,60.0,5,26
+560,CET082,organização e recuperação da informação,60.0,5,26
+561,CET083,probabilidade e estatística,60.0,5,32
+562,CET115,processamento de imagens,60.0,5,26
+563,CET107,processamento paralelo,60.0,5,26
+564,CET1182,programação para aplicações web,60.0,5,26
+565,CET084,projeto e análise de algoritmos,60.0,5,26
+566,CET098,rede de computadores i,60.0,5,26
+567,CET099,rede de computadores ii,60.0,5,26
+568,CET100,sistemas distribuídos,60.0,5,26
+569,CET108,sistemas especialistas,60.0,5,26
+570,CET101,sistemas operacionais,60.0,5,26
+571,CET088,software básico,60.0,5,26
+572,CET109,tecnologia de redes à grandes distâncias,60.0,5,26
+573,CET125,tecnologia e educação,60.0,5,26
+574,CET102,tecnologia e sociedade,30.0,5,26
+575,CET089,teoria da computação,60.0,5,26
+576,CET113,tópicos avançados em algoritmos,60.0,5,26
+577,CET111,tópicos avançados em computação i,60.0,5,26
+578,CET112,tópicos avançados em computação ii,60.0,5,26
+579,CET322,métodos quantitativos aplicados à administração i,60.0,5,34
+580,CET496,métodos quantitativos aplicado à administração ii,60.0,5,34
+581,CET497,métodos quantitativos aplicados à administração iii,60.0,5,34
+582,CET117,introdução à estatística,60.0,5,32
+583,CET498,estatística aplicada,60.0,5,32
+584,CET1234,estatistica aplicada a saúde,60.0,5,32
+585,CET1201,bioestatistica,75.0,5,32
