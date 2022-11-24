@@ -64,7 +64,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="disciplina" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1036.19" y="710.51"/>
+	<position x="1068.92" y="721.419"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -159,7 +159,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="docente" layers="0" collapse-mode="2" max-obj-count="8" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1650.05" y="338.182"/>
+	<position x="1710.05" y="360"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -210,7 +210,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="area" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1590.63" y="713.287"/>
+	<position x="1677.9" y="733.287"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -426,7 +426,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="doc_interessado" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1229.09" y="90.9091"/>
+	<position x="1132.73" y="120"/>
 
 	<customidxs object-type="column">
 		<object name="id_aula" index="0"/>
@@ -460,7 +460,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="titulo" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2007.27" y="400"/>
+	<position x="1840" y="98.1818"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -475,7 +475,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="cargo" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1672.73" y="74.5455"/>
+	<position x="1527.28" y="94.5455"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
