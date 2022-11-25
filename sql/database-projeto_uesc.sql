@@ -13,23 +13,11 @@
 -- ddl-end --
 
 
--- object: public.colegiado | type: TABLE --
--- DROP TABLE IF EXISTS public.colegiado CASCADE;
-CREATE TABLE public.colegiado (
-	id serial NOT NULL,
-	colegiado varchar(50) NOT NULL,
-	CONSTRAINT colegiado_pk PRIMARY KEY (id)
-);
--- ddl-end --
-ALTER TABLE public.colegiado OWNER TO postgres;
--- ddl-end --
-
 -- object: public.curso | type: TABLE --
 -- DROP TABLE IF EXISTS public.curso CASCADE;
 CREATE TABLE public.curso (
 	id serial NOT NULL,
 	curso varchar(50) NOT NULL,
-	id_colegiado integer,
 	CONSTRAINT curso_pk PRIMARY KEY (id)
 );
 -- ddl-end --
@@ -179,13 +167,6 @@ ALTER TABLE public.semestre OWNER TO postgres;
 -- ALTER TABLE public.semestre DROP CONSTRAINT IF EXISTS pro_reitoria_fk CASCADE;
 ALTER TABLE public.semestre ADD CONSTRAINT pro_reitoria_fk FOREIGN KEY (id_pro_reitoria)
 REFERENCES public.pro_reitoria (id) MATCH FULL
-ON DELETE SET NULL ON UPDATE CASCADE;
--- ddl-end --
-
--- object: colegiado_fk | type: CONSTRAINT --
--- ALTER TABLE public.curso DROP CONSTRAINT IF EXISTS colegiado_fk CASCADE;
-ALTER TABLE public.curso ADD CONSTRAINT colegiado_fk FOREIGN KEY (id_colegiado)
-REFERENCES public.colegiado (id) MATCH FULL
 ON DELETE SET NULL ON UPDATE CASCADE;
 -- ddl-end --
 

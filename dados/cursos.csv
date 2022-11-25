@@ -1,21 +1,29 @@
-id,curso,id_colegiado
-1,administração,1
-2,agronomia,2
-3,biomedicina,3
-4,ciências biológicas,4
-5,ciências contábeis,5
-6,ciências sociais,7
-7,computação,9
-8,economia,6
-9,enfermagem,12
-10,eng. civil,13
-11,eng. elétrica,15
-12,eng. mecânica,16
-13,eng. produção,14
-14,eng. química,17
-15,física,19
-16,geografia,20
-17,lea,22
-18,matemática,24
-19,medicina veterinária,26
-20,química,28
+id,curso
+1,administração
+2,agronomia
+3,biomedicina
+4,ciência da computação
+5,ciências biológicas
+6,ciências contábeis
+7,ciências econômicas
+8,ciências sociais
+9,comunicação social
+10,direito
+11,educação física
+12,enfermagem
+13,engenharia civil
+14,engenharia de produção
+15,engenharia elétrica
+16,engenharia mecânica
+17,engenharia química
+18,filosofia
+19,física
+20,geografia
+21,história
+22,lea
+23,letras
+24,matemática
+25,medicina
+26,medicina veterinária
+27,pedagogia
+28,química
