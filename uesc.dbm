@@ -44,6 +44,14 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<constraint name="curso_pk" type="pk-constr" table="public.curso">
 		<columns names="id" ref-type="src-columns"/>
 	</constraint>
+
+	<customidxs object-type="column">
+		<object name="id_colegiado" index="2"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="colegiado_fk" index="1"/>
+	</customidxs>
 </table>
 
 <table name="formacao" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
@@ -94,6 +102,16 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<schema name="public"/>
 	<role name="postgres"/>
 	<position x="1508.87" y="1029.29"/>
+
+	<customidxs object-type="column">
+		<object name="id_disciplina" index="0"/>
+		<object name="id_formacao" index="1"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="disciplina_fk" index="0"/>
+		<object name="formacao_fk" index="1"/>
+	</customidxs>
 </table>
 
 <relationship name="disciplina_has_many_disciplina_formacao" type="rel1n" layers="0"
@@ -118,6 +136,16 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<schema name="public"/>
 	<role name="postgres"/>
 	<position x="445.332" y="1041.19"/>
+
+	<customidxs object-type="column">
+		<object name="id_curso" index="0"/>
+		<object name="id_formacao" index="1"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="curso_fk" index="0"/>
+		<object name="formacao_fk" index="1"/>
+	</customidxs>
 </table>
 
 <relationship name="curso_has_many_curso_formacao" type="rel1n" layers="0"
@@ -243,6 +271,14 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<constraint name="semestre_pk" type="pk-constr" table="public.semestre">
 		<columns names="id" ref-type="src-columns"/>
 	</constraint>
+
+	<customidxs object-type="column">
+		<object name="id_pro_reitoria" index="2"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="pro_reitoria_fk" index="1"/>
+	</customidxs>
 </table>
 
 <relationship name="pro_reitoria_has_many_semestre" type="rel1n" layers="0"
@@ -312,8 +348,8 @@ CAUTION: Do not modify this file unless you know what you are doing.
 
 	<customidxs object-type="constraint">
 		<object name="curso_fk" index="2"/>
-		<object name="disciplina_fk" index="0"/>
-		<object name="semestre_fk" index="1"/>
+		<object name="disciplina_fk" index="1"/>
+		<object name="semestre_fk" index="3"/>
 	</customidxs>
 </table>
 
@@ -351,7 +387,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
-	<column name="tipo" not-null="true">
+	<column name="tipo_aula" not-null="true">
 		<type name="varchar" length="19"/>
 	</column>
 	<constraint name="tipo_aula_pk" type="pk-constr" table="public.tipo_aula">
@@ -376,8 +412,8 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	</customidxs>
 
 	<customidxs object-type="constraint">
-		<object name="tipo_aula_fk" index="1"/>
-		<object name="turma_fk" index="0"/>
+		<object name="tipo_aula_fk" index="2"/>
+		<object name="turma_fk" index="1"/>
 	</customidxs>
 </table>
 
@@ -403,6 +439,17 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<schema name="public"/>
 	<role name="postgres"/>
 	<position x="1090.91" y="403.636"/>
+
+	<customidxs object-type="column">
+		<object name="id_aula" index="0"/>
+		<object name="id_docente" index="1"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="aula_fk" index="0"/>
+		<object name="doc_indicado_uq" index="1"/>
+		<object name="docente_fk" index="2"/>
+	</customidxs>
 </table>
 
 <relationship name="doc_indicado_has_one_aula" type="rel11" layers="0"
