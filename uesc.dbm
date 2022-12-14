@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
  Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.4" use-changelog="false" last-position="0,0" last-zoom="0.55" max-obj-count="22"
+<dbmodel pgmodeler-ver="0.9.4" use-changelog="false" last-position="0,0" last-zoom="0.55" max-obj-count="21"
 	 default-schema="public" default-owner="postgres"
 	 layers="Default layer"
 	 active-layers="0"
@@ -16,10 +16,10 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <schema name="public" layers="0" fill-color="#e1e1e1" sql-disabled="true">
 </schema>
 
-<table name="curso" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
+<table name="curso" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="55.7489" y="855.979"/>
+	<position x="60" y="860"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -34,7 +34,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="formacao" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="969.067" y="1031.44"/>
+	<position x="480" y="1080"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -49,7 +49,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="disciplina" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1068.92" y="721.419"/>
+	<position x="1080" y="720"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -78,7 +78,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="disciplina_formacao" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1508.87" y="1029.29"/>
+	<position x="1080" y="1060"/>
 
 	<customidxs object-type="column">
 		<object name="id_disciplina" index="0"/>
@@ -109,44 +109,10 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	 dst-table="public.disciplina_formacao"
 	 src-required="false" dst-required="false"/>
 
-<table name="curso_formacao" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
-	<schema name="public"/>
-	<role name="postgres"/>
-	<position x="556.364" y="1043.01"/>
-
-	<customidxs object-type="column">
-		<object name="id_curso" index="0"/>
-		<object name="id_formacao" index="1"/>
-	</customidxs>
-
-	<customidxs object-type="constraint">
-		<object name="curso_fk" index="0"/>
-		<object name="formacao_fk" index="1"/>
-	</customidxs>
-</table>
-
-<relationship name="curso_has_many_curso_formacao" type="rel1n" layers="0"
-	 src-col-pattern="{sc}_{st}"
-	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
-	 src-fk-pattern="{st}_fk"
-	 custom-color="#55128e"
-	 src-table="public.curso"
-	 dst-table="public.curso_formacao"
-	 src-required="false" dst-required="false"/>
-
-<relationship name="formacao_has_many_curso_formacao" type="rel1n" layers="0"
-	 src-col-pattern="{sc}_{st}"
-	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
-	 src-fk-pattern="{st}_fk"
-	 custom-color="#f2bd2b"
-	 src-table="public.formacao"
-	 dst-table="public.curso_formacao"
-	 src-required="false" dst-required="false"/>
-
 <table name="departamento" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1829.39" y="1014.88"/>
+	<position x="1580" y="1060"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -164,7 +130,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="docente" layers="0" collapse-mode="2" max-obj-count="8" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1710.05" y="360"/>
+	<position x="1720" y="360"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -197,7 +163,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="pro_reitoria" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="43.7716" y="179.301"/>
+	<position x="40" y="180"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -215,7 +181,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="area" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1677.9" y="733.287"/>
+	<position x="1600" y="740"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -238,7 +204,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="semestre" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="24.8951" y="544.616"/>
+	<position x="20" y="540"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -297,7 +263,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="turma" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="570.909" y="709.091"/>
+	<position x="580" y="700"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -351,7 +317,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="tipo_aula" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="576.363" y="147.273"/>
+	<position x="580" y="140"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -366,7 +332,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="aula" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="570.909" y="389.091"/>
+	<position x="580" y="380"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -406,7 +372,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="doc_indicado" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1090.91" y="403.636"/>
+	<position x="1120" y="460"/>
 
 	<customidxs object-type="column">
 		<object name="id_aula" index="0"/>
@@ -441,7 +407,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="doc_interessado" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1132.73" y="120"/>
+	<position x="1080" y="140"/>
 
 	<customidxs object-type="column">
 		<object name="id_aula" index="0"/>
@@ -475,7 +441,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="titulo" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1840" y="98.1818"/>
+	<position x="1840" y="100"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -490,7 +456,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="cargo" layers="0" collapse-mode="2" max-obj-count="2" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1527.28" y="94.5455"/>
+	<position x="1520" y="100"/>
 	<column name="id" not-null="true">
 		<type name="serial" length="0"/>
 	</column>
@@ -518,6 +484,15 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	 custom-color="#be1104"
 	 src-table="public.cargo"
 	 dst-table="public.docente"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="formacao_has_many_curso" type="rel1n" layers="0"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#9cb15c"
+	 src-table="public.formacao"
+	 dst-table="public.curso"
 	 src-required="false" dst-required="false"/>
 
 </dbmodel>

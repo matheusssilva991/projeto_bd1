@@ -1,29 +1,35 @@
-id,curso
-1,administração
-2,agronomia
-3,biomedicina
-4,ciência da computação
-5,ciências biológicas
-6,ciências contábeis
-7,ciências econômicas
-8,ciências sociais
-9,comunicação social
-10,direito
-11,educação física
-12,enfermagem
-13,engenharia civil
-14,engenharia de produção
-15,engenharia elétrica
-16,engenharia mecânica
-17,engenharia química
-18,filosofia
-19,física
-20,geografia
-21,história
-22,lea
-23,letras
-24,matemática
-25,medicina
-26,medicina veterinária
-27,pedagogia
-28,química
+id,curso,id_formacao
+1,administração,1
+2,agronomia,1
+3,biomedicina,1
+4,ciência da computação,1
+5,ciências biológicas,1
+6,ciências biológicas,2
+7,ciências contábeis,1
+8,ciências econômicas,1
+9,ciências sociais,2
+10,comunicação social,1
+11,direito,1
+12,economia,1
+13,educação física,2
+14,enfermagem,1
+15,engenharia civil,1
+16,engenharia de produção,1
+17,engenharia elétrica,1
+18,engenharia mecânica,1
+19,engenharia química,1
+20,filosofia,2
+21,física,2
+22,física,1
+23,geografia,2
+24,geografia,1
+25,história,2
+26,lea,1
+27,letras,2
+28,matemática,2
+29,matemática,1
+30,medicina,1
+31,medicina veterinária,1
+32,pedagogia,2
+33,química,1
+34,química,2

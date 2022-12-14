@@ -9,7 +9,7 @@
 -- 
 -- object: projeto_uesc | type: DATABASE --
 -- DROP DATABASE IF EXISTS projeto_uesc;
--- CREATE DATABASE projeto_uesc;
+--CREATE DATABASE projeto_uesc;
 -- ddl-end --
 
 
@@ -18,6 +18,7 @@
 CREATE TABLE public.curso (
 	id serial NOT NULL,
 	curso varchar(50) NOT NULL,
+	id_formacao integer,
 	CONSTRAINT curso_pk PRIMARY KEY (id)
 );
 -- ddl-end --
@@ -70,31 +71,6 @@ ON DELETE SET NULL ON UPDATE CASCADE;
 -- object: formacao_fk | type: CONSTRAINT --
 -- ALTER TABLE public.disciplina_formacao DROP CONSTRAINT IF EXISTS formacao_fk CASCADE;
 ALTER TABLE public.disciplina_formacao ADD CONSTRAINT formacao_fk FOREIGN KEY (id_formacao)
-REFERENCES public.formacao (id) MATCH FULL
-ON DELETE SET NULL ON UPDATE CASCADE;
--- ddl-end --
-
--- object: public.curso_formacao | type: TABLE --
--- DROP TABLE IF EXISTS public.curso_formacao CASCADE;
-CREATE TABLE public.curso_formacao (
-	id_curso integer,
-	id_formacao integer
-
-);
--- ddl-end --
-ALTER TABLE public.curso_formacao OWNER TO postgres;
--- ddl-end --
-
--- object: curso_fk | type: CONSTRAINT --
--- ALTER TABLE public.curso_formacao DROP CONSTRAINT IF EXISTS curso_fk CASCADE;
-ALTER TABLE public.curso_formacao ADD CONSTRAINT curso_fk FOREIGN KEY (id_curso)
-REFERENCES public.curso (id) MATCH FULL
-ON DELETE SET NULL ON UPDATE CASCADE;
--- ddl-end --
-
--- object: formacao_fk | type: CONSTRAINT --
--- ALTER TABLE public.curso_formacao DROP CONSTRAINT IF EXISTS formacao_fk CASCADE;
-ALTER TABLE public.curso_formacao ADD CONSTRAINT formacao_fk FOREIGN KEY (id_formacao)
 REFERENCES public.formacao (id) MATCH FULL
 ON DELETE SET NULL ON UPDATE CASCADE;
 -- ddl-end --
@@ -351,6 +327,13 @@ ON DELETE SET NULL ON UPDATE CASCADE;
 -- ALTER TABLE public.docente DROP CONSTRAINT IF EXISTS cargo_fk CASCADE;
 ALTER TABLE public.docente ADD CONSTRAINT cargo_fk FOREIGN KEY (id_cargo)
 REFERENCES public.cargo (id) MATCH FULL
+ON DELETE SET NULL ON UPDATE CASCADE;
+-- ddl-end --
+
+-- object: formacao_fk | type: CONSTRAINT --
+-- ALTER TABLE public.curso DROP CONSTRAINT IF EXISTS formacao_fk CASCADE;
+ALTER TABLE public.curso ADD CONSTRAINT formacao_fk FOREIGN KEY (id_formacao)
+REFERENCES public.formacao (id) MATCH FULL
 ON DELETE SET NULL ON UPDATE CASCADE;
 -- ddl-end --
 
