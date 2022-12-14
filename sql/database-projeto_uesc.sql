@@ -50,31 +50,6 @@ CREATE TABLE public.disciplina (
 ALTER TABLE public.disciplina OWNER TO postgres;
 -- ddl-end --
 
--- object: public.disciplina_formacao | type: TABLE --
--- DROP TABLE IF EXISTS public.disciplina_formacao CASCADE;
-CREATE TABLE public.disciplina_formacao (
-	id_disciplina integer,
-	id_formacao integer
-
-);
--- ddl-end --
-ALTER TABLE public.disciplina_formacao OWNER TO postgres;
--- ddl-end --
-
--- object: disciplina_fk | type: CONSTRAINT --
--- ALTER TABLE public.disciplina_formacao DROP CONSTRAINT IF EXISTS disciplina_fk CASCADE;
-ALTER TABLE public.disciplina_formacao ADD CONSTRAINT disciplina_fk FOREIGN KEY (id_disciplina)
-REFERENCES public.disciplina (id) MATCH FULL
-ON DELETE SET NULL ON UPDATE CASCADE;
--- ddl-end --
-
--- object: formacao_fk | type: CONSTRAINT --
--- ALTER TABLE public.disciplina_formacao DROP CONSTRAINT IF EXISTS formacao_fk CASCADE;
-ALTER TABLE public.disciplina_formacao ADD CONSTRAINT formacao_fk FOREIGN KEY (id_formacao)
-REFERENCES public.formacao (id) MATCH FULL
-ON DELETE SET NULL ON UPDATE CASCADE;
--- ddl-end --
-
 -- object: public.departamento | type: TABLE --
 -- DROP TABLE IF EXISTS public.departamento CASCADE;
 CREATE TABLE public.departamento (
