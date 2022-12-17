@@ -68,7 +68,6 @@ CREATE TABLE public.docente (
 	id serial NOT NULL,
 	nome varchar(200) NOT NULL,
 	dt_inicio date NOT NULL,
-	dt_fim date,
 	id_cargo integer,
 	id_titulo integer,
 	id_area integer,

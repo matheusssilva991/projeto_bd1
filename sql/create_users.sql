@@ -1,12 +1,19 @@
+-- drop all
+drop group departamento_dcet;
+drop group pro_reitoria_prograd;
+drop group curso_computacao;
+drop user user_dcet;
+drop user user_prograd;
+drop user user_computacao;
+
 -- groups
 create group departamento_dcet;
 create group pro_reitoria_prograd;
 create group curso_computacao;
 
 -- permissões group departamento_dcet
-grant select on view_docente_dcet, view_disciplina_dcet to departamento_dcet;
-grant select, update, delete, insert on view_area_dcet, view_departamento_dcet to departamento_dcet;
-grant select, update, delete, insert on disciplina, docente, cargo, titulo, departamento_dcet to departamento_dcet;
+grant select on view_docente_dcet, view_disciplina_dcet, cargo, titulo to departamento_dcet;
+grant select, update, delete, insert on view_area_dcet, view_departamento_dcet, departamento_dcet to departamento_dcet;
 
 -- permissões group pro_reitoria_prograd
 grant select, update, delete, insert on view_pro_reitoria_prograd, view_semestre_prograd to pro_reitoria_prograd;
@@ -31,6 +38,3 @@ grant pro_reitoria_prograd to user_prograd;
 -- users curso_computacao
 create user user_computacao with password '1234';
 grant curso_computacao to user_computacao;
-
-
-
