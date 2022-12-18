@@ -149,6 +149,7 @@ CREATE TABLE public.turma (
 	id_disciplina integer,
 	id_semestre integer,
 	id_curso integer,
+	id_tipo_aula integer,
 	CONSTRAINT turma_pk PRIMARY KEY (id)
 );
 -- ddl-end --
@@ -187,66 +188,10 @@ CREATE TABLE public.tipo_aula (
 ALTER TABLE public.tipo_aula OWNER TO postgres;
 -- ddl-end --
 
--- object: public.aula | type: TABLE --
--- DROP TABLE IF EXISTS public.aula CASCADE;
-CREATE TABLE public.aula (
-	id serial NOT NULL,
-	id_turma integer,
-	id_tipo_aula integer,
-	CONSTRAINT aula_pk PRIMARY KEY (id)
-);
--- ddl-end --
-ALTER TABLE public.aula OWNER TO postgres;
--- ddl-end --
-
--- object: turma_fk | type: CONSTRAINT --
--- ALTER TABLE public.aula DROP CONSTRAINT IF EXISTS turma_fk CASCADE;
-ALTER TABLE public.aula ADD CONSTRAINT turma_fk FOREIGN KEY (id_turma)
-REFERENCES public.turma (id) MATCH FULL
-ON DELETE SET NULL ON UPDATE CASCADE;
--- ddl-end --
-
--- object: tipo_aula_fk | type: CONSTRAINT --
--- ALTER TABLE public.aula DROP CONSTRAINT IF EXISTS tipo_aula_fk CASCADE;
-ALTER TABLE public.aula ADD CONSTRAINT tipo_aula_fk FOREIGN KEY (id_tipo_aula)
-REFERENCES public.tipo_aula (id) MATCH FULL
-ON DELETE SET NULL ON UPDATE CASCADE;
--- ddl-end --
-
--- object: public.doc_indicado | type: TABLE --
--- DROP TABLE IF EXISTS public.doc_indicado CASCADE;
-CREATE TABLE public.doc_indicado (
-	id_aula integer,
-	id_docente integer
-
-);
--- ddl-end --
-ALTER TABLE public.doc_indicado OWNER TO postgres;
--- ddl-end --
-
--- object: aula_fk | type: CONSTRAINT --
--- ALTER TABLE public.doc_indicado DROP CONSTRAINT IF EXISTS aula_fk CASCADE;
-ALTER TABLE public.doc_indicado ADD CONSTRAINT aula_fk FOREIGN KEY (id_aula)
-REFERENCES public.aula (id) MATCH FULL
-ON DELETE SET NULL ON UPDATE CASCADE;
--- ddl-end --
-
--- object: doc_indicado_uq | type: CONSTRAINT --
--- ALTER TABLE public.doc_indicado DROP CONSTRAINT IF EXISTS doc_indicado_uq CASCADE;
-ALTER TABLE public.doc_indicado ADD CONSTRAINT doc_indicado_uq UNIQUE (id_aula);
--- ddl-end --
-
--- object: docente_fk | type: CONSTRAINT --
--- ALTER TABLE public.doc_indicado DROP CONSTRAINT IF EXISTS docente_fk CASCADE;
-ALTER TABLE public.doc_indicado ADD CONSTRAINT docente_fk FOREIGN KEY (id_docente)
-REFERENCES public.docente (id) MATCH FULL
-ON DELETE SET NULL ON UPDATE CASCADE;
--- ddl-end --
-
 -- object: public.doc_interessado | type: TABLE --
 -- DROP TABLE IF EXISTS public.doc_interessado CASCADE;
 CREATE TABLE public.doc_interessado (
-	id_aula integer,
+	id_turma integer,
 	id_docente integer
 
 );
@@ -258,13 +203,6 @@ ALTER TABLE public.doc_interessado OWNER TO postgres;
 -- ALTER TABLE public.doc_interessado DROP CONSTRAINT IF EXISTS docente_fk CASCADE;
 ALTER TABLE public.doc_interessado ADD CONSTRAINT docente_fk FOREIGN KEY (id_docente)
 REFERENCES public.docente (id) MATCH FULL
-ON DELETE SET NULL ON UPDATE CASCADE;
--- ddl-end --
-
--- object: aula_fk | type: CONSTRAINT --
--- ALTER TABLE public.doc_interessado DROP CONSTRAINT IF EXISTS aula_fk CASCADE;
-ALTER TABLE public.doc_interessado ADD CONSTRAINT aula_fk FOREIGN KEY (id_aula)
-REFERENCES public.aula (id) MATCH FULL
 ON DELETE SET NULL ON UPDATE CASCADE;
 -- ddl-end --
 
@@ -308,6 +246,50 @@ ON DELETE SET NULL ON UPDATE CASCADE;
 -- ALTER TABLE public.curso DROP CONSTRAINT IF EXISTS formacao_fk CASCADE;
 ALTER TABLE public.curso ADD CONSTRAINT formacao_fk FOREIGN KEY (id_formacao)
 REFERENCES public.formacao (id) MATCH FULL
+ON DELETE SET NULL ON UPDATE CASCADE;
+-- ddl-end --
+
+-- object: tipo_aula_fk | type: CONSTRAINT --
+-- ALTER TABLE public.turma DROP CONSTRAINT IF EXISTS tipo_aula_fk CASCADE;
+ALTER TABLE public.turma ADD CONSTRAINT tipo_aula_fk FOREIGN KEY (id_tipo_aula)
+REFERENCES public.tipo_aula (id) MATCH FULL
+ON DELETE SET NULL ON UPDATE CASCADE;
+-- ddl-end --
+
+-- object: turma_fk | type: CONSTRAINT --
+-- ALTER TABLE public.doc_interessado DROP CONSTRAINT IF EXISTS turma_fk CASCADE;
+ALTER TABLE public.doc_interessado ADD CONSTRAINT turma_fk FOREIGN KEY (id_turma)
+REFERENCES public.turma (id) MATCH FULL
+ON DELETE SET NULL ON UPDATE CASCADE;
+-- ddl-end --
+
+-- object: public.doc_indicado | type: TABLE --
+-- DROP TABLE IF EXISTS public.doc_indicado CASCADE;
+CREATE TABLE public.doc_indicado (
+	id_turma integer,
+	id_docente integer
+
+);
+-- ddl-end --
+ALTER TABLE public.doc_indicado OWNER TO postgres;
+-- ddl-end --
+
+-- object: turma_fk | type: CONSTRAINT --
+-- ALTER TABLE public.doc_indicado DROP CONSTRAINT IF EXISTS turma_fk CASCADE;
+ALTER TABLE public.doc_indicado ADD CONSTRAINT turma_fk FOREIGN KEY (id_turma)
+REFERENCES public.turma (id) MATCH FULL
+ON DELETE SET NULL ON UPDATE CASCADE;
+-- ddl-end --
+
+-- object: doc_indicado_uq | type: CONSTRAINT --
+-- ALTER TABLE public.doc_indicado DROP CONSTRAINT IF EXISTS doc_indicado_uq CASCADE;
+ALTER TABLE public.doc_indicado ADD CONSTRAINT doc_indicado_uq UNIQUE (id_turma);
+-- ddl-end --
+
+-- object: docente_fk | type: CONSTRAINT --
+-- ALTER TABLE public.doc_indicado DROP CONSTRAINT IF EXISTS docente_fk CASCADE;
+ALTER TABLE public.doc_indicado ADD CONSTRAINT docente_fk FOREIGN KEY (id_docente)
+REFERENCES public.docente (id) MATCH FULL
 ON DELETE SET NULL ON UPDATE CASCADE;
 -- ddl-end --
 
