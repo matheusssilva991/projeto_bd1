@@ -12,7 +12,7 @@ create or replace function audit.func_proc_audit()
                 log_autor varchar(50),
                 log_data DATE,
                 log_operacao VARCHAR(6),
-                log_query VARCHAR(200));', table_name_audit);
+                log_query VARCHAR(500));', table_name_audit);
 
         if(TG_OP = 'DELETE') then
             execute format('insert into audit.%I (log_autor, log_data, log_operacao, log_query) 

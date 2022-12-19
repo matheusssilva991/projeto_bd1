@@ -1,5 +1,17 @@
 -- Função calcular tempo de serviço docente
-create or replace function calcula_tempo_servico(integer, integer, integer)
+CREATE FUNCTION calcula_tempo_servico ()
+RETURNS table (id integer,
+			   nome character varying(200),
+			   dt_inicio timestamp,
+			   tempo_servico character varying(200)) AS $$
+			   
+select docente.id, docente.nome, docente.dt_inicio, cast((CURRENT_DATE - docente.dt_inicio) / 365 as integer)
+	|| ' anos, ' || cast((CURRENT_DATE - docente.dt_inicio) % 365 / 30 as integer) || ' meses e ' ||  
+	cast((CURRENT_DATE - docente.dt_inicio) % 365 % 30 as integer) || ' dias' as tempo_servico from docente;
+$$ LANGUAGE SQL;
+
+-- Função calcular tempo de serviço docente
+create or replace function calcula_tempo_servico_2(integer, integer, integer)
 returns text language plpgsql as $$
 
 declare
